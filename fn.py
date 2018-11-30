@@ -47,7 +47,7 @@ def get_bot_id():
         return bot_id
 
 
-sc = SlackClient()
+sc = SlackClient(get_token())
 
 
 def bukket_event(request):
